@@ -105,7 +105,7 @@ struct client pessoa[n];
 for (i = 0; i < n; i++)
     {
       
-printf ("Digite um cC3digo para o cliente:\n");
+printf ("Digite um codigo para o cliente:\n");
       
 scanf ("%d%*c", &pessoa[i].id);
       
@@ -189,7 +189,7 @@ int n, x, l, v = 0;
 struct client pessoa;
   
 printf
-    ("Filtrar os clientes por:\n1-CC3digo\n2-Nome\n3-Rua\n4-Cidade\n5-Estado\n");
+    ("Filtrar os clientes por:\n1-Codigo\n2-Nome\n3-Rua\n4-Cidade\n5-Estado\n");
   
 scanf ("%i", &l);
   
@@ -463,7 +463,7 @@ int escolha;
     {
       
 printf
-	("Escolha uma aC'C#o:\n1-Gravar clientes\n2-Ler clientes\n3-Limpar resgistros\n4-Filtrar clientes\n0-Fechar programa\n");
+	("Escolha uma opcao:\n1-Gravar clientes\n2-Ler clientes\n3-Limpar resgistros\n4-Filtrar clientes\n0-Fechar programa\n");
       
 scanf ("%i", &escolha);
       
